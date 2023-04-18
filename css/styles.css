@@ -15,9 +15,16 @@
         --color-white: #ffffff;
         --color-dairy: #fcfcfc;
     }
-.body{
+
+.link{
+    text-decoration: none;
+}
+.list{
+list-style:none;
+}
+body{
 background-color: var(--color-white);
-font-family: 'Roboto', 'Raleway' sans-serif;
+font-family: 'Roboto', sans-serif;
 color: var(--color-slate);
 }    
 
@@ -29,9 +36,8 @@ background-color: var(--color-white);
 font-family: 'Raleway', sans-serif;
 font-size: 18px;
 font-weight: 800;
-line-height: 21px;
+line-height: 1.17;
 letter-spacing: 0.03em;
-text-decoration: none;
 text-transform: uppercase;
 color: var(--color-iris);
 }
@@ -40,28 +46,33 @@ color: var(--color-iris);
 color: var(--color-navy-blue)
 
 }
+/*
 .header-nav-list{
+
+}
+*/
+.header-nav-item{
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-navy-blue);
-list-style-type: none;
-}
 
-.header-nav-item{
-text-decoration: none;
-color: inherit;
 }
 .header-nav-item:active {
  color: var(--color-ocean);
  text-decoration: underline;
+}
+.header-nav-item:hover {
+color: var(--color-ocean);
+text-decoration: underline;
 }
 .header-address{
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 list-style-type: none;
+font-style:normal;
 }
 .header-address-item{
 text-decoration: none;
@@ -70,6 +81,10 @@ color: inherit;
 .header-address-item:active{
 color:var(--color-ocean);
 text-decoration: underline;
+}
+.header-address-item:hover {
+    color: var(--color-ocean);
+    text-decoration: underline;
 }
 
 .main-hero{
@@ -84,6 +99,7 @@ letter-spacing: 0.02em;
 color: var(--color-white);
 }
 .main-hero-order{
+font-family: 'Roboto', sans-serif;
 background-color: var(--color-iris);
 color: var(--color-white);
 font-size: 16px;
@@ -96,13 +112,15 @@ border:none;
 background-color: var(--color-ocean);
 cursor: pointer;
 }
+.main-hero-order:active {
+background-color: var(--color-ocean);
+cursor: pointer;
+}
 .hide{
 display: none;
 }
-.main-list{
-    list-style-type: none;
-}
-.main-header3{
+
+.main-header-third{
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -114,7 +132,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
-.main-header2{
+.main-header-second{
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -127,7 +145,10 @@ color: var(--color-navy-blue);
 .main-describtion{
 background-color: var(--color-cloud);
 }
-.main-team-header3{
+.decribtion-item{
+    background-color: var(--color-white);
+}
+.main-team-header-third{
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -149,14 +170,12 @@ font-family: 'Raleway', sans-serif;
 font-size: 18px;
 font-weight: 800;
 line-height: 1.17;
-text-align: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--color-iris);
-text-decoration: none;
 }
 .footer-logo-half{
-color:var(--color-white);
+color:var(--color-cloud);
 }
 .footer-paragraph{
 font-size: 16px;
