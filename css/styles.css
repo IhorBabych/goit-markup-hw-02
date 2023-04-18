@@ -187,6 +187,7 @@ letter-spacing: 0.02em;
 color: var(--color-cloud);
 }
 .portfolio-buttons{
+    font-family: "Roboto", sans-serif;
     background-color: var(--color-cloud);
     color: var(--color-iris);
     font-size: 16px;
